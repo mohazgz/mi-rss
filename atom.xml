@@ -1,1 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Actualizaciones Educativas</title>
+  <link href="https://www.ejemplo.com/atom" rel="self" />
+  <updated>2025-04-03T12:00:00Z</updated>
+  <author>
+    <name>Plataforma Educativa</name>
+  </author>
+  <id>https://www.ejemplo.com/atom</id>
 
+  <entry>
+    <title>Nuevo Curso: Programación en Java</title>
+    <link href="https://www.ejemplo.com/cursos/programacion-en-java" />
+    <summary>Introducción a la programación en Java, para principiantes y estudiantes avanzados.</summary>
+    <updated>2025-04-03T12:00:00Z</updated>
+    <author>
+      <name>Juan Pérez</name>
+    </author>
+    <id>https://www.ejemplo.com/cursos/programacion-en-java</id> <!-- ID único para esta entrada -->
+  </entry>
+
+  <entry>
+    <title>Fecha de examen de Matemáticas: 15 de abril</title>
+    <link href="https://www.ejemplo.com/examen/matematicas-abril" />
+    <summary>El examen final de Matemáticas se celebrará el 15 de abril de 2025. Asegúrate de revisar los materiales del curso.</summary>
+    <updated>2025-04-03T12:05:00Z</updated>
+    <author>
+      <name>Ana López</name>
+    </author>
+    <id>https://www.ejemplo.com/examen/matematicas-abril</id> <!-- ID único para esta entrada -->
+  </entry>
+
+</feed>
